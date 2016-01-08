@@ -34,7 +34,7 @@ USER_NAME_LIST = [
 ]
 
 USER_PASSWD_LIST = [
-    'admin', 'admin888', '111111', '1234', '12345', '123456',
+    'admin', 'admin888', 'admin123','111111', '1234', '12345', '123456',
     '1234567', '12345678', 'abc123', 'dragon', 'iloveyou', 'letmein',
     'monkey', 'password', 'qwerty', 'tequiero', 'test', 'demo', 'guest'
 ]

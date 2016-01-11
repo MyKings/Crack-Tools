@@ -328,7 +328,7 @@ def main(config={}):
 
 def cmdline():
     parser = argparse.ArgumentParser(description='form crack tool.')
-    parser.add_argument('-s', dest='url', required=True, help='login URL,http://pm.wangjiu.com/')
+    parser.add_argument('-s', dest='url', required=True, help='login URL,http://login.com/')
     parser.add_argument('-a', dest='action', help='action URL,login')
     parser.add_argument('-t', dest='time', default=0, type=int, help='action URL')
     parser.add_argument('-v', action="store_true", help='show details')

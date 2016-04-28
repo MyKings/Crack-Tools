@@ -89,3 +89,5 @@ target: [http://172.16.213.179/phpspy.php], user count: [10], password count: [1
 ## 待开发完善功能
 
 * 验证码提醒与跳过
+* 加入了错误信息判断功能，即输入密码错误的时候，从dic/error.txt文件里面读取错误的提示进行判断，原来的方式有bug,没有进行错误信息判断，随便读取一个密码都认为是正确的密码。
+第264行 status_error=content.count(error_info) #计算error_info字符出现的次数
